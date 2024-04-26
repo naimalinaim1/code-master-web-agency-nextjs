@@ -1,0 +1,14 @@
+/* custom-swiper-styles.css */
+.swiper.swiper-coverflow.swiper-3d {
+  padding-top: 40px !important;
+  padding-bottom: 80px !important;
+}
+.swiper-pagination-bullet {
+  background-color: #ff9344 !important;
+  width: 12px !important;
+  height: 12px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ff9344 !important;
+}
