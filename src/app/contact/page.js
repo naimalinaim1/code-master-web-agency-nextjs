@@ -1,9 +1,7 @@
+import ContactUI from "@/components/ui/ContactUI/ContactUI";
+
 const ContactPage = () => {
-  return (
-    <div>
-      <h1>Contact page coming soon....</h1>
-    </div>
-  );
+  return <ContactUI />;
 };
 
 export default ContactPage;
