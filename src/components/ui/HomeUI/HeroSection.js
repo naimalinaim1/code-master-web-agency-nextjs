@@ -22,7 +22,7 @@ const HeroSection = () => {
               We design and build industry-leading web-based products that bring
               value to your customers, delivered with compelling UX.
             </p>
-            <Button href="/">Start free Today</Button>
+            <Button href="/service">Start Development</Button>
           </div>
           <div className="col-span-12 md:col-span-5">
             <div className="mx-auto md:rounded-full" style={{ width: "96%" }}>

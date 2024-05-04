@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 const Footer = () => {
   return (
-    <footer className="bg-[#271352]">
+    <footer className="bg-[#271352] pt-2">
       <div className="bg-white rounded-t-[65px]">
         {/* footer link */}
         <div className="pt-24 pb-52 text-[#13072E] rounded-t-[35px]">
@@ -11,56 +13,62 @@ const Footer = () => {
                 <aside>
                   <p className="text-3xl font-bold">Image</p>
                   <p className="text-lg my-5">
-                    Web agency explainer videos, product videos, and videos for
-                    large brands and innovative startups.
+                    Agency offers full-stack development using Next.js, React,
+                    Tailwind, and Bootstrap for seamless frontend and backend
+                    solutions tailored to client needs.
                   </p>
                 </aside>
                 {/* services link */}
-                <nav className="space-y-6 lg:pl-16">
-                  <header className="text-2xl font-bold  mb-8">Services</header>
+                <nav className="space-y-6 lg:pl-10">
+                  <header className="text-2xl font-bold mb-8">Services</header>
                   <p>
                     <a className="text-xl cursor-pointer inline-block">
-                      Explainer Video
+                      Websites
                     </a>
                   </p>
                   <p>
                     <a className="text-xl cursor-pointer inline-block">
-                      SaaS Product Videos
+                      Web Portal
                     </a>
                   </p>
                   <p>
                     <a className="text-xl cursor-pointer inline-block">
-                      Partnership
+                      E-commerce
                     </a>
                   </p>
                   <p>
                     <a className="text-xl cursor-pointer inline-block">
-                      Referral Program
+                      Full Stack Development
                     </a>
                   </p>
                 </nav>
                 {/* More */}
-                <nav className="space-y-6 lg:pl-20">
+                <nav className="space-y-6 lg:pl-6">
                   <header className="text-2xl font-bold  mb-8">More</header>
                   <p>
                     <a className="text-xl cursor-pointer inline-block">
-                      About us
+                      Frontend Development
                     </a>
                   </p>
                   <p>
                     <a className="text-xl cursor-pointer inline-block">
-                      Contact us
+                      Backend Development
                     </a>
                   </p>
                   <p>
                     <a className="text-xl cursor-pointer inline-block">
-                      Clutch reviews
+                      Leanding Page
+                    </a>
+                  </p>
+                  <p>
+                    <a className="text-xl cursor-pointer inline-block">
+                      Next JS
                     </a>
                   </p>
                 </nav>
                 {/* Contact us */}
                 <nav className="space-y-6">
-                  <header className="text-2xl font-bold  mb-8">
+                  <header className="text-2xl font-bold mb-8">
                     Contact Us
                   </header>
                   <p>
@@ -70,7 +78,7 @@ const Footer = () => {
                   </p>
                   <p>
                     <a className="text-xl cursor-pointer inline-block ">
-                      Email:{" "}
+                      Email:&nbsp;
                       <span className="text-lg">
                         hello@my-web-agency.surge.sh
                       </span>
@@ -78,11 +86,17 @@ const Footer = () => {
                   </p>
                   <p>
                     <a className="text-xl cursor-pointer inline-block">
-                      Address:{" "}
-                      <span className="text-lg">
-                        Zirabo, Ashulia, Dhaka, Bangladesh.
-                      </span>
+                      Address:&nbsp;
+                      <span className="text-lg">Dhaka, Bangladesh.</span>
                     </a>
+                  </p>
+                  <p className="text-xl cursor-pointer inline-block mt-1">
+                    <Link
+                      href="/contact"
+                      className="bg-[#13072E] text-white text-sm font-semibold py-2.5 inline-block px-6 rounded-full"
+                    >
+                      Message Now
+                    </Link>
                   </p>
                 </nav>
               </div>
